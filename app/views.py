@@ -54,3 +54,12 @@ def populate():
 # 		db.session.commit()
 # 	return jsonify({'delid':delid})
 
+@app.route('/page1', methods=['GET','POST'])
+def survey():
+	form = outfitcollection()
+	if form.validate_on_submit():
+		outfits = Survey(outfit_one=form.outfit_one.data, outfit_two=form.outfit_two.data, outfit_three=form.outfit_three.data)
+		db.session.add(outfits)
+		db.session.commit()
+		return redirect(url_for('index'))
+	return render_template('page1.html', form=form)

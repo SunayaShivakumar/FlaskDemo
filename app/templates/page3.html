@@ -1,42 +1,117 @@
-<form action="" method="post" name="post">
-	{{ form.hidden_tag() }}
-	<table>
-		<tr>
-			<td>Describe the event/occasion you are wearing this outfit.</td>
-		</tr>
-		<tr>
-			<td>{{ form.event(size=80, maxlength=200) }}</td>
-		</tr>
-		<br />
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	body {
+	width: 100%;
+	margin: auto;
+}
 
-		<tr>
-			<td>Describe the place/location you are wearing this outfit.</td>
-		</tr>
-		<tr>
-			<td>{{ form.location(size=80, maxlength=200) }}</td>
-		</tr>
-		<br />
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
 
-		<tr>
-			<td>Describe the weather you are wearing this outfit.</td>
-		</tr>
-		<tr>
-			<td>{{ form.weather(size=80, maxlength=200) }}</td>
-		</tr>
-		<br />
+.header{
+	background: #566D7E;
+	width: 100%;
+	top: 0;
+	position: fixed;
+}
 
-		<tr>
-			<td>Describe the style of the outfit you are wearing.</td>
-		</tr>
-		<tr>
-			<td>{{ form.style(size=80, maxlength=200) }}</td>
-		</tr>
-		<br />
+.logo{
+	float: left;
+	font-family: "neutra";
+	font-size: 15px;
+}
 
-		<tr>
-			<td><input type="submit" value="Post!"></td>
-		</tr>
+a{
+	text-decoration: none;
+	color: #BBD8D8;
+}
 
-	</table>
+li{
+	list-style: none;
+	float: left;
+	margin-left: 15px; 
+	padding-top: 10px; 
 
-</form>
+    padding: 10px 15px;
+}
+
+.nav{
+	float: right;
+}
+
+p{
+	font-size: 20px;
+	font-family: "neutra";
+}
+#div1 {
+	width:325px;
+	height:250px;
+	padding:10px;
+	border:1px solid #aaaaaa;
+	background-color: white;
+}
+	</style>
+	<title>Interface</title>
+	<link rel="stylesheet" type="text/css" href="./css/int.css">
+</head>
+<body style = "background-color:#BBD8D8;">
+	<div class="header">
+
+		<div class="container">
+			<div class="logo">
+				<h1 style = "color: #BBD8D8">P. S.</h1>
+			</div>
+
+			<div class="nav">
+				<ul>
+					<li><input type="submit" value="SAVE" style = "background:  #BBD8D8; color: #566D7E;"></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="content">
+			<br><br><br>
+		</div>
+		<br>
+		<div class="content">
+			<form action="" method="post" name="post">
+				<table>
+					<tr>
+						<td style = "color: #566D7E; font-size: 20px">Describe the event/occasion you are wearing this outfit.</td>
+					</tr>
+					<tr>
+						<td>{{ form.event(size=80, maxlength=200) }}</td>
+					</tr>
+					<br />
+					<tr>
+						<td style = "color: #566D7E; font-size: 20px">Describe the place/location you are wearing this outfit.</td>
+					</tr>
+					<tr>
+						<td>{{ form.location(size=80, maxlength=200) }}</td>
+					</tr>
+					<br />
+					<tr>
+						<td style = "color: #566D7E; font-size: 20px">Describe the weather you are wearing this outfit.</td>
+					</tr>
+					<tr>
+						<td>{{ form.weather(size=80, maxlength=200) }}</td>
+					</tr>
+					<br />
+					<tr>
+						<td style = "color: #566D7E; font-size: 20px">Describe the style of the outfit you are wearing.</td>
+					</tr>
+					<tr>
+						<td>{{ form.style(size=80, maxlength=200) }}</td>
+					</tr>
+					<br />
+				</table>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
