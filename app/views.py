@@ -23,6 +23,7 @@ def survey():
 								style=form.style.data)
 		db.session.add(survey_result)
 		db.session.commit()
+		print (form.event.data)
 		# os.system('echo "Hello!" ')
 		# tempstring = "boot jacket leather studded t-shirt black commando distressed fishnet alexander-mcqueen sweatshirt-hoodies"
 		# with open("output.txt", "w+") as f:
