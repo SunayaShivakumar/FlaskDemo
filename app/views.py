@@ -56,9 +56,10 @@ def populate():
 
 @app.route('/page1', methods=['GET','POST'])
 def survey1():
-#	print ("this is survey1")
+	print ("this is survey1")
 	form = outfitcollection()
 	if form.validate_on_submit():
+		print ("enter if statement")
 		print (form.outfit_one.data)		
 		outfits = useroutfits(outfit_one=form.outfit_one.data, outfit_two=form.outfit_two.data, outfit_three=form.outfit_three.data)
 		db.session.add(outfits)
