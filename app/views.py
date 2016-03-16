@@ -1,7 +1,7 @@
 from flask import render_template, redirect, url_for, jsonify
 from app import app, db
-from .models import Picture, Survey
-from .forms import surveyForm
+from .models import Picture, Survey, useroutfits
+from .forms import surveyForm, outfitcollection
 import json
 import os
 
@@ -55,10 +55,12 @@ def populate():
 # 	return jsonify({'delid':delid})
 
 @app.route('/page1', methods=['GET','POST'])
-def survey():
+def survey1():
+#	print ("this is survey1")
 	form = outfitcollection()
 	if form.validate_on_submit():
-		outfits = Survey(outfit_one=form.outfit_one.data, outfit_two=form.outfit_two.data, outfit_three=form.outfit_three.data)
+                print (form.outfit_one.data)		
+		outfits = useroutfits(outfit_one=form.outfit_one.data, outfit_two=form.outfit_two.data, outfit_three=form.outfit_three.data)
 		db.session.add(outfits)
 		db.session.commit()
 		return redirect(url_for('index'))
