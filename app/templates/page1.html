@@ -46,8 +46,22 @@ p{
 	font-family: "neutra";
 }
 #div1 {
-	width:325px;
-	height:250px;
+	width:100%;
+	height:34%;
+	padding:10px;
+	border:1px solid #aaaaaa;
+	background-color: white;
+}
+#div2 {
+	width:100%;
+	height:33%;
+	padding:10px;
+	border:1px solid #aaaaaa;
+	background-color: white;
+}
+#div3 {
+	width:100%;
+	height:33%;
 	padding:10px;
 	border:1px solid #aaaaaa;
 	background-color: white;
@@ -85,12 +99,12 @@ p{
 				</td>
 				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
 				<td>
-					<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+					<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
 					</div>
 				</td>
 				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
 				<td>
-					<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+					<div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">
 					</div>
 				</td>
 			</tr>
@@ -99,7 +113,7 @@ p{
 				<td>
 					<div class="content">
 						<!--<TEXTAREA Name="content" ROWS=20 COLS=60></TEXTAREA>-->
-						{{ form.outfit_one(maxlength=700, rows="200", cols="600") }}
+						{{ form.outfit_one(size=62, maxlength=700, rows="20", cols="60") }}
 					</div>
 				</td>
 				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
