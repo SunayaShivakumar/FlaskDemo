@@ -7,7 +7,6 @@ import os, operator
 import pickle
 import numpy as np
 ​
-​
 LOCAL_MALLET_APP = "mallet-2.0.8RC3/bin/mallet"
 ​
 topics = None
