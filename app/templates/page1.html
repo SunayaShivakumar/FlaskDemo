@@ -2,121 +2,165 @@
 <html>
 <head>
 <style type="text/css">
-	body {
-	width: 100%;
-	margin: auto;
+        body {
+        width: 100%;
+        margin: auto;
 }
 
 .container{
-	width: 1200px;
-	margin: 0 auto;
+        width: 1200px;
+        margin: 0 auto;
 }
 
 .header{
-	background: #566D7E;
-	width: 100%;
-	top: 0;
-	position: fixed;
+        background: #566D7E;
+        width: 100%;
+        top: 0;
+        position: fixed;
 }
 
 .logo{
-	float: left;
-	font-family: "neutra";
-	font-size: 15px;
+        float: left;
+        font-family: "neutra";
+        font-size: 15px;
 }
 
 a{
-	text-decoration: none;
-	color: #BBD8D8;
+        text-decoration: none;
+        color: #BBD8D8;
 }
 
 li{
-	list-style: none;
-	float: left;
-	margin-left: 15px; 
-	padding-top: 10px; 
+        list-style: none;
+        float: left;
+        margin-left: 15px;
+        padding-top: 10px;
 }
 
 .nav{
-	float: right;
+        float: right;
 }
 
 p{
-	font-size: 20px;
-	font-family: "neutra";
+        font-size: 20px;
+        font-family: "neutra";
 }
 #div1 {
-	width:325px;
-	height:250px;
-	padding:10px;
-	border:1px solid #aaaaaa;
-	background-color: white;
+        width:325px;
+        height:250px;
+        padding:10px;
+        border:1px solid #aaaaaa;
+        background-color: white;
 }
 </style>
 <title>Interface</title>
-	<!--<link rel="stylesheet" type="text/css" href="./css/int.css">-->
+        <!--<link rel="stylesheet" type="text/css" href="./css/int.css">-->
 </head>
 <body style = "background-color:#BBD8D8;">
-	<div class="header">
-	<form action="" method="post" name="post">
-		{{ form.hidden_tag() }}
-		<div class="container">
-			<div class="logo">
-				<h1 style = "color: #BBD8D8">P. S.</h1>
-			</div>
+        <div class="header">
+        <!-- <form action="" method="post" name="post"> -->
+                <!-- {{ form.hidden_tag() }} -->
+                <div class="container">
+                        <div class="logo">
+                                <h1 style = "color: #BBD8D8">P. S.</h1>
+                        </div>
 
-			<div class="nav">
-				<ul>
-					<li><input type="submit" value="SAVE" style = "background:  #BBD8D8; color: #566D7E;"></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="content">
-			<br><br><br><br>
-			<p style = "color: #566D7E">Upload three of your best outfits and describe them in detail.</p>
-		</div>
-		<table>
-			<tr>
-				<td>
-					<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
-					</div>
-				</td>
-				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-				<td>
-					<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
-					</div>
-				</td>
-				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-				<td>
-					<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
-					</div>
-				</td>
-			</tr>
-			<br>
-			<tr>
-				<td>
-					<div class="content">
-						<!--<TEXTAREA Name="content" ROWS=20 COLS=60></TEXTAREA>-->
-						{{ form.outfit_one(size=62, maxlength=700, rows="20", cols="60")|safe }}
-					</div>
-				</td>
-				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-				<td>
-					<div class="content">
-						{{ form.outfit_two(size=62, maxlength=700) }}
-					</div>
-				</td>
-				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-				<td>
-					<div class="content">
-						{{ form.outfit_three(size=62, maxlength=700) }}
-					</div>
-				</td>
-			</tr>
-		</table>
-		</form>
-	</div>
+                        <div class="nav">
+                                <ul>
+                                        <li><input id="savebutton" type="submit" value="SAVE" style = "background:  #BBD8D8; color: #566D7E;"></li>
+                                        <li><input id="nextbutton" type="submit" value="NEXT" style = "background:  #BBD8D8; color: #566D7E;"></li>
+                                </ul>
+                        </div>
+                </div>
+        </div>
+        <div class="container">
+                <div class="content">
+                        <br><br><br><br>
+                        <p style = "color: #566D7E">Upload three of your best outfits and describe them in detail.</p>
+                </div>
+                <form>
+                <table>
+                        <tr>
+                                <td>
+                                        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                                        </div>
+                                </td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                                <td>
+                                        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                                        </div>
+                                </td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                                <td>
+                                        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                                        </div>
+                                </td>
+                        </tr>
+                        <br>
+                        <tr>
+                                <td>
+                                        <!-- <div class="content"> -->
+                                        <div class="ui-widget">
+                                                <!--<TEXTAREA Name="content" ROWS=20 COLS=60></TEXTAREA>-->
+                                                {{ form.outfit_one(size=62, maxlength=700) }}
+                                        </div>
+                                </td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                                <td>
+                                        <!-- <div class="content"> -->
+                                        <div class="ui-widget">
+                                                {{ form.outfit_two(size=62, maxlength=700) }}
+                                        </div>
+                                </td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                                <td>
+                                        <!-- <div class="content"> -->
+                                        <div class="ui-widget">
+                                                {{ form.outfit_three(size=62, maxlength=700) }}
+                                        </div>
+                                </td>
+                        </tr>
+                </table>
+                </form>
+
+                <div id="loadingtext" style="visibility:hidden"><h3>Processing... We will suggest some styles that might fit you based on those outfits</h3></div>
+                <div id="results"></div>
+
+        </div>
+
+
+        <script src="/static/jquery-2.1.4.min.js"></script>
+        <link rel="stylesheet" href="static/jquery-ui-1.11.4.custom/jquery-ui.css">
+        <script src="static/jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+        <script src="/static/auto_test.js"></script>
+        <script type="text/javascript">
+                // $("button").on("click", function() {
+                $("#savebutton").on("click", function() {
+                        $("#loadingtext").css("visibility","visible");
+                        console.log("ha");
+                        $.post(
+                                "{{url_for('handle_survey_page1')}}",
+                                $("form").serialize(),
+                                function(response){
+                                        $("#loadingtext").css("visibility","hidden");
+                                        for(key in response){
+                                                for(ind in response[key]){
+                                                        $("#results").append("<p>"+response[key][ind]+"</p>");
+                                                }
+                                        }
+                                }
+                        );
+                });
+
+                document.getElementById("nextbutton").addEventListener("click", function() {
+                                var form = document.createElement('form');
+                                form.method = "GET";
+                                form.action = "{{url_for('survey_page3')}}";
+                                form.submit();
+                });
+
+        </script>
+
+
 </body>
 </html>
