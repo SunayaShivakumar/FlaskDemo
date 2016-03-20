@@ -4,13 +4,13 @@ from wtforms.validators import DataRequired, Length
 
 class surveyForm(Form):
 	# for page 3
-	event = StringField('event', validators=[DataRequired()])
-	location = StringField('location', validators=[DataRequired()])
-	weather = StringField('weather', validators=[DataRequired()])
-	style = StringField('style', validators=[DataRequired()])
+	event = TextAreaField('event', validators=[DataRequired()])
+	location = TextAreaField('location', validators=[DataRequired()])
+	weather = TextAreaField('weather', validators=[DataRequired()])
+	style = TextAreaField('style', validators=[DataRequired()])
 
 class outfitForm(Form):
 	# page 1
-	outfit_one = StringField('outfit_one', validators=[DataRequired()])
-	outfit_two = StringField('outfit_two', validators=[DataRequired()])
-	outfit_three = StringField('outfit_three', validators=[DataRequired()])
+	outfit_one = TextAreaField('outfit_one', validators=[DataRequired()])
+	outfit_two = TextAreaField('outfit_two', validators=[DataRequired()])
+	outfit_three = TextAreaField('outfit_three', validators=[DataRequired()])
