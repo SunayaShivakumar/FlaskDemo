@@ -28,7 +28,7 @@ class Survey(db.Model):
 	def __repr__(self):
 		return '<This is survey #%r \n event: %r \n location: %r \n weather: %r \n style: %r \n>' % (self.id, self.event, self.location, self.weather, self.style)
 
-class useroutfits(db.Model):
+class Useroutfits(db.Model):
 	id = db.Column(db.Integer, primary_key = True)
 	outfit_one = db.Column(db.String(700))
 	outfit_two = db.Column(db.String(700))

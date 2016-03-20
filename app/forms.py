@@ -9,7 +9,7 @@ class surveyForm(Form):
 	weather = StringField('weather', validators=[DataRequired()])
 	style = StringField('style', validators=[DataRequired()])
 
-class outfitcollection(Form):
+class outfitForm(Form):
 	# page 1
 	outfit_one = StringField('outfit_one', validators=[DataRequired()])
 	outfit_two = StringField('outfit_two', validators=[DataRequired()])

@@ -1,6 +1,6 @@
 from flask import render_template, redirect, url_for, jsonify, request
 from app import app, db
-from .models import Picture, Survey, useroutfits
+from .models import Picture, Survey, Useroutfits
 from .forms import surveyForm, outfitForm
 import json
 import os, operator
