@@ -1,84 +1,94 @@
 <html>
 	<head>
-		{% if title %}
-		<title>{{ title }} - yoho</title>
-		{% else %}
-		<title>Welcome</title>
-		{% endif %}
-
+		<title>Interface</title>
+​
 		<style>
-			div {
-				text-align: center;
-				width: 150px;
+				body {
+				width: 100%;
+				margin: auto;
 			}
-
-			img {
-				height: 150px;
-				width: 150px;
+​
+			.container{
+				width: 1200px;
+				margin: 0 auto;
 			}
+​
+			.header{
+				background: #566D7E;
+				width: 100%;
+				top: 0;
+				position: fixed;
+			}
+​
+			a{
+				text-decoration: none;
+				color: #BBD8D8;
+			}
+​
+			li{
+				list-style: none;
+				float: left;
+				margin-left: 15px; 
+				padding-top: 10px; 
+			}
+			.logo{
+				float: left;
+				font-family: "neutra";
+				font-size: 15px;
+			}
+​
+			.nav{
+				float: right;
+			}
+​
 		</style>
-
+​
 	</head>
-	<body>
-		<button id="addpic">Add One</button>
-		<button id="delpic">Del One</button>
-		<div class="wrap">
-		{% for pic in pics %}
-		<div>
-			<p>{{ pic.name }}</p>
-			<img id="{{ pic.id }}" src="https://s3-us-west-2.amazonaws.com/polyvoredata/full/{{ pic.link }}" />
+	<body style = "background-color:#BBD8D8;">
+		<div class="header">
+			<div class="container">
+				<div class="logo">
+					<h1 style = "color: #BBD8D8">P. S.</h1>
+				</div>
+​
+				<div class="nav">
+				</div>
+			</div>
 		</div>
-		{% endfor %}
+		
+		<div class="container">
+			<div class="content" style="text-align:center;">
+				<br><br><br><br>
+				<h3>Survey start page</h3>
+				<br />
+				<p id="loadingtext">Eventual consent form will be placed here</p>
+				<button id="startbutton" style="visibility:hidden;">Start Survey</button>
+			</div>
 		</div>
-
-
+​
 		<script src="/static/jquery-2.1.4.min.js"></script>
 		<script>
-			$(function() {
-				$('#addpic').click(function() {
-					$.ajax({
-						url: '/populate',
-						type: 'POST',
-						success: function(response) {
-							// console.log(response);
-							$('.wrap').append("<div><p>"+response['name']+"</p><img id="+response['id']+" src='https://s3-us-west-2.amazonaws.com/polyvoredata/full/"+response['link']+"' /></div>")		
-						},
-						error: function(error) {
-							console.log(error);
-						}
-					});
-
-				});
-				$('#delpic').click(function() {
-					$.ajax({
-						url: '/deleter',
-						type: 'DELETE',
-						success: function(response) {
-							$("#"+response['delid']).parent().remove();
-						},
-						error: function(error) {
-							console.log(error)
-						}
-					});
-				});
+			(function($){
+				$.post(
+					"{{url_for('index')}}",
+					"",
+					function(response){
+						$("#loadingtext").css("visibility", "hidden");
+						$("#startbutton").css("visibility", "visible");
+					}
+				);
+			})(jQuery);
+​
+			document.getElementById("startbutton").addEventListener("click", function() {
+					var form = document.createElement('form');
+					form.method = "GET";
+					form.action = "{{url_for('survey_page1')}}";
+					form.submit();
 			});
 		</script>
+​
 	</body>
 </html>
-
+​
 <!-- https://s3-us-west-2.amazonaws.com/polyvoredata/full/ -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+​

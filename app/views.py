@@ -6,20 +6,20 @@ import json
 import os, operator
 import pickle
 import numpy as np
-​
-​
+
+
 LOCAL_MALLET_APP = "mallet-2.0.8RC3/bin/mallet"
-​
+
 topics = None
 items = None
 phiMatrices = None
 topItemsByTopic = None
-​
-​
+
+
 @app.route('/', methods=['GET','POST'])
 @app.route('/index', methods=['GET','POST'])
 def index():
-​
+
 	if request.method == "POST":
 		global topics
 		global items
@@ -28,14 +28,14 @@ def index():
 		topics, items, phiMatrices, topItemsByTopic = getTopics()
 		return "done"
 	return render_template("index.html")
-​
+
 @app.route('/page1', methods=['GET','POST'])
 def survey_page1():
 	# form = outfitcollection()
 	form = outfitForm()
-​
+
 	return render_template('page1.html', form=form)
-​
+
 @app.route('/page11', methods=['GET','POST'])
 def handle_survey_page1():
 	
@@ -45,28 +45,28 @@ def handle_survey_page1():
 	outfits = Useroutfits(outfit_one=form.outfit_one.data, outfit_two=form.outfit_two.data, outfit_three=form.outfit_three.data)
 	db.session.add(outfits)
 	db.session.commit()
-​
+
 	comp_str = form.outfit_one.data+" "+form.outfit_two.data+" "+form.outfit_three.data
-​
+
 	file_saver_local("concrete", comp_str)
 	mallet_runner_local("concrete")
 	# file_saver_AWS("concrete", comp_str)
 	# mallet_runner_AWS("concrete")
-​
+
 	global topics
 	global phiMatrices
-​
+
 	topItemsByStyleWord = getItemsByStyle(topics,phiMatrices,"concrete")
 	print(topItemsByStyleWord)
 	return jsonify(topItemsByStyleWord)
-​
-​
+
+
 @app.route('/page3', methods=['GET','POST'])
 def survey_page3():
 	form = surveyForm()
-​
+
 	return render_template('page3.html', form=form)
-​
+
 @app.route('/page31', methods=['POST','GET'])
 def handle_survey_page3():
 	print(request.form)
@@ -78,24 +78,24 @@ def handle_survey_page3():
 							style=form.style.data)
 	db.session.add(survey_result)
 	db.session.commit()
-​
+
 	comp_str = form.event.data+" "+form.location.data+" "+form.weather.data+" "+form.style.data
 	file_saver_local("abstract", comp_str)
 	mallet_runner_local("abstract")
-​
+
 	global topics
 	global phiMatrices
-​
+
 	topItemsByStyleWord = getItemsByStyle(topics,phiMatrices,"abstract")
 	print(topItemsByStyleWord)
 	# return jsonify(doctops_return)
 	return jsonify(topItemsByStyleWord)
-​
-​
+
+
 @app.route('/thankyou', methods=['GET','POST'])
 def thankyou():
 	return render_template("thankpage.html")
-​
+
 def file_saver_local(AorC, str):
 	if AorC == "concrete":
 		with open("app/mallet/concrete_words.txt", "w") as f:
@@ -103,28 +103,28 @@ def file_saver_local(AorC, str):
 	else:
 		with open("app/mallet/abstract_words.txt", "w") as f:
 			f.write(str)
-​
-​
+
+
 def mallet_runner_local(AorC):
 	command1 = "mallet-2.0.8RC3/bin/mallet import-file --input app/mallet/concrete_words.txt --output app/mallet/concrete_out.sequences --keep-sequence --token-regex '[\p{L}\p{P}\p{N}]*\p{L}' --use-pipe-from app/mallet/concrete.sequences"
 	command2 = "mallet-2.0.8RC3/bin/mallet infer-topics --input app/mallet/concrete_out.sequences --inferencer app/mallet/inferencer-1.output.0 --output-doc-topics app/mallet/c2adoctops"
-​
+
 	command3 = "mallet-2.0.8RC3/bin/mallet import-file --input app/mallet/abstract_words.txt --output app/mallet/abstract_output.sequences --keep-sequence --token-regex '[\p{L}\p{P}\p{N}]*\p{L}' --use-pipe-from app/mallet/abstract.sequences"
 	command4 = "mallet-2.0.8RC3/bin/mallet infer-topics --input app/mallet/abstract_output.sequences --inferencer app/mallet/inferencer-1.output.1 --output-doc-topics app/mallet/a2cdoctops"
-​
+
 	if AorC == "concrete":
 		os.system(command1)
 		print("done")
 		os.system(command2)
 		print("done2")
-​
+
 	else:
 		os.system(command3)
 		print("done3")
 		os.system(command4)
 		print("done4")
 	return
-​
+
 def dataPreprocessing(labels,keyfile,wordweightfile):
     topics = {}
     with open(keyfile) as f:
@@ -156,8 +156,8 @@ def dataPreprocessing(labels,keyfile,wordweightfile):
                 items[l]=set()
             items[l] = items[l] | set(topics[t]['data'][l].keys())
     return (topics,items)
-​
-​
+
+
 def getTopics():
 	phiMatrices = {}
 	labels = {}
@@ -188,7 +188,7 @@ def getTopics():
             sortres = sorted(res.items(),key=operator.itemgetter(1))
             topItemsByTopic[t][l]=[i for i in reversed(sortres[-25:])]
     return (topics, items, phiMatrices, topItemsByTopic)
-​
+
 def getItemsByStyle(topics,phiMatrices,AorC):
 	inferredTheta = {}
 	if AorC == "concrete":
@@ -222,3 +222,5 @@ def getItemsByStyle(topics,phiMatrices,AorC):
 		tempres = [itemnames[i] for i in reversed(inds[-25:])]
 		topItemsByStyleWord[sty]=tempres
 	return topItemsByStyleWord
+
+
