@@ -46,22 +46,25 @@ p{
 	font-family: "neutra";
 }
 #div1 {
-	width:100%;
-	height:34%;
+	float: left;
+	width:33%;
+	height:250px;
 	padding:10px;
 	border:1px solid #aaaaaa;
 	background-color: white;
 }
 #div2 {
-	width:100%;
-	height:33%;
+
+	width:33%;
+	height:250px;
 	padding:10px;
 	border:1px solid #aaaaaa;
 	background-color: white;
 }
 #div3 {
-	width:100%;
-	height:33%;
+	float: right;
+	width:33%;
+	height:250px;
 	padding:10px;
 	border:1px solid #aaaaaa;
 	background-color: white;
@@ -111,7 +114,7 @@ p{
 				<td>
 					<div class="content">
 						<!--<TEXTAREA Name="content" ROWS=20 COLS=60></TEXTAREA>-->
-						{{ form.outfit_one(size=62, maxlength=700, rows="20", cols="60") }}
+						{{ form.outfit_one(size=62, maxlength=700, rows="20", cols="60")|safe }}
 					</div>
 				</td>
 				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
