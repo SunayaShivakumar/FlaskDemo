@@ -1,0 +1,69 @@
+<div class="wrapper">
+<form action="" method="post" name="post">
+	<!-- {{ form.hidden_tag() }} -->
+	<table>
+		<tr>
+			<td>Describe the event/occasion you are wearing this outfit.</td>
+		</tr>
+		<tr>
+			<td>{{ form.event(size=80, maxlength=200) }}</td>
+		</tr>
+		<br />
+
+		<tr>
+			<td>Describe the place/location you are wearing this outfit.</td>
+		</tr>
+		<tr>
+			<td>{{ form.location(size=80, maxlength=200) }}</td>
+		</tr>
+		<br />
+
+		<tr>
+			<td>Describe the weather you are wearing this outfit.</td>
+		</tr>
+		<tr>
+			<td>{{ form.weather(size=80, maxlength=200) }}</td>
+		</tr>
+		<br />
+
+		<tr>
+			<td>Describe the style of the outfit you are wearing.</td>
+		</tr>
+		<tr>
+			<td>{{ form.style(size=80, maxlength=200) }}</td>
+		</tr>
+		<br />
+
+		<tr>
+			<!-- <td><input type="submit" value="Submit"></td> -->
+			<!-- <td><button>submit</button></td> -->
+		</tr>
+
+	</table>
+
+</form>
+
+<button>submit</button>
+</div>
+
+<script src="/static/jquery-2.1.4.min.js"></script>
+<script type="text/javascript">
+	$("button").on("click", function() {
+		console.log("ha");
+		$.post(
+			"{{url_for('survey2')}}",
+			$("form").serialize(),
+			function(response){
+				for(key in response){
+					// console.log(response[key]);
+					$(".wrapper").append("<p>"+response[key]+"</p>");
+				}
+				// console.log(response['line1']);
+				// $("div.wrapper").append(response);
+			}
+		);
+	});
+
+
+
+</script>

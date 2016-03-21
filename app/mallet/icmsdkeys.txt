@@ -1,0 +1,450 @@
+0	0.17616
+ 0	31833	0.0019231728208458517	leather red brown high heel cape suede shoe pink long fringe wool beige orange platform herm strap heeled yellow 
+ 1	2110	0.004717392655351462	birthday weekend fall spring amazing summerfashion crazy stylish fresh nature friday weather teen season audition pride throne glam night 
+1	0.18728
+ 0	31813	0.0019231728208458517	shoe high heel leather white pink platform red strap ankle zipper patent wedge cut metallic beige moschino sole nude 
+ 1	2033	0.004717392655351462	cute winter movie modern family walk colour lyric bold vintageinspired boutique cheap-chic bday concert essential date trend professional outside 
+2	0.15873
+ 0	32417	0.0019231728208458517	black bra lace shoe lingerie oscar la-renta corset red high leather bustier hm kohl zipper up purple bow strappy 
+ 1	2220	0.004717392655351462	sexy night away spring occasion seamless balcony mom wedding artist monday fresh couture weather babydoll unique essential seasideresort agent 
+3	0.17931
+ 0	30957	0.0019231728208458517	shoe top leather red high dolcegabbana white pink green zipper dolce suede mini embroidered embellished toe heel dot print 
+ 1	2109	0.004717392655351462	birthday school fun baroque beautiful streetstyle awesome clean eating casual lyric getthelook mood vibe busy sunnies sunshine morning darling 
+4	0.17489
+ 0	31229	0.0019231728208458517	shoe purple pink top high heel leather blue green mini tutu platform layered pleated tulle lavender embellished amethyst toe 
+ 1	2188	0.004717392655351462	character birthday pony alone perfect lovely fall staple brother break worth city swift dressy curl autumn girly vintageinspired sunnies 
+5	0.19158
+ 0	49696	0.0019231728208458517	booty boot black ankle heel up chunky lace cut out suede chelsea beatle faux campbell tan dr turtleneck side 
+ 1	2658	0.004717392655351462	chunky peep winter grunge fall swift trend lazy vagabond christmas holiday noel chinese shadow 17th teenage kawaii fiction georgia 
+6	0.19606
+ 0	46425	0.0019231728208458517	short denim highwaisted over fold high-waisted tank-top cotton light pocket tall boyfriend aropostale unisex paul polyester micro adigirl cuffed 
+ 1	2480	0.004717392655351462	summer vintage punk cool skate rock sporty sweat alone kind strong babe parent pilot dorm hanging bonfire pineapple yahoostyle 
+7	0.1701
+ 0	36626	0.0019231728208458517	blouse sleeve silk long ruffle chiffon heel collar button brown red flounce toe beige flutter floral front tie bow 
+ 1	2909	0.004717392655351462	getthelook fashionset stylish celebritystyle fashionista celebstyle topset beautiful glamour edgy cool vacation fashionweek glam nature usa kyliejenner romantic workwear 
+8	0.20342
+ 0	49234	0.0019231728208458517	earring jewelry cuff stud silver gold ear pearl feather studded dangle chain art crystal drop hoop leaf two sparkle 
+ 1	2639	0.004717392655351462	deco bohemian fancy 1920s beach flapper ball goddess school club chic comfy chill real nouveau worth arizona perfume magcon 
+9	0.0831
+ 0	56414	0.0019231728208458517	swimsuit bikini swimwear swim suit two-piece top wear tankini piece halter triangle one bandeau bathing bathing-suit costume bikini-bottom strappy 
+ 1	4585	0.004717392655351462	beach swimming bathing retro sexy hipster flop getaway pool sport beachwear curl beachbag poolparty trip beachstyle agent sunniesandswimwear packandgo 
+10	0.18467
+ 0	33403	0.0019231728208458517	shoe flat white blue on slip print baker espadrille palm ted tree denim sole metallic floral cotton slipon silk 
+ 1	2104	0.004717392655351462	beach date fashionset game mixitup weekendstyle pretty garden club character birthday luxe friday tropical throne complete real patternmixing mix 
+11	0.17464
+ 0	33665	0.0019231728208458517	shoe shirt nike lightweight cushioned pink secret victoria traction waffle print mesh cotton stretch synthetic pom neck top waist 
+ 1	2694	0.004717392655351462	lightweight running tennis workout athletic yoga run getthelook gym classic trickytrend alone bored itbag mom wardrobestaples mall scream howtostyle 
+12	0.1805
+ 0	32094	0.0019231728208458517	shoe red orange high heel leather yellow coral strap stretch toe on sleeveless blue slip strappy fitted square cutout 
+ 1	2220	0.004717392655351462	fall casual diva fashionset autumn real monet weekendstyle fallfashion edgy minimalism backtoschool mix amazing fallstyle summertofall monsoon deranged sunshine 
+13	0.19711
+ 0	44829	0.0019231728208458517	jewelry beading bead beaded red maurices coral stone turquoise chain statement crochet pearl drop metal crystal teardrop handcrafted tassel 
+ 1	2819	0.004717392655351462	boho bohemian hippie gypsy beautytrend photography match awesome forgot unique hungry india dressy sunshinesoaked sadly happybirthday madness celebstyle roar 
+14	0.18271
+ 0	33503	0.0019231728208458517	pink shoe flower floral heel high rose bow embellished print toe nude pastel cream peach hot blossom embroidered satin 
+ 1	2094	0.004717392655351462	night happy birthday cute summerstyle school office june busy creative nice trickytrend zine theme clean pizza english roadtrip sunset 
+15	0.19886
+ 0	50632	0.0019231728208458517	short highwaisted denim highwaist cotton pocket tank-top micro crochet loose frayed levi checkered stripe waistband bleached shiny off culotte 
+ 1	2700	0.004717392655351462	summer lightweight rock relaxed sailor boho wet nautical hipster june picnic warmweather brooklyn luxe highlowstyle skate bestie lunch ariana 
+16	0.17065
+ 0	42043	0.0019231728208458517	skirt long maxi length floor pleated chiffon olivia alice rayon sheer full aztec bralette waist maurices draped travel tribal 
+ 1	2274	0.004717392655351462	summer boho sexy fancy chic dressy caged fishtail gypsy mix fandom fashionset formal seen office town weekendstyle mom adventure 
+17	0.16287
+ 0	43669	0.0019231728208458517	belt leather buckle brown wide adjustable waist studded woven tan braided bow embellished thin dorothy vegan beige red forever 
+ 1	2413	0.004717392655351462	vintage summer wet spring special cowboy chic london western cowgirl fancy boho office afternoon drama cold dressy routine bloggerstyle 
+18	0.20395
+ 0	57159	0.0019231728208458517	bracelet charm bead braided wrap woven stretch cord heart silver beading rope chain cross infinity bangle macrame knot adjustable 
+ 1	2893	0.004717392655351462	friendship vintage boho bohemian indian london hippie american instagram workwear sailor swift charming native chinese future arizona rainy rare 
+19	0.21093
+ 0	58932	0.0019231728208458517	jean skinny slim leg blue fit highwaist stretch highwaisted low hm straight tapered boyfriend religion true dark topshop brand 
+ 1	2669	0.004717392655351462	religion american lightweight relaxed unisex retro holiday london skate casual monday runner brother hipster boutique famous random cold lovely 
+20	0.18143
+ 0	30485	0.0019231728208458517	shoe blue top white navy high toe round sole light embroidered yellow tie striped petite plus buckle suede stripe 
+ 1	2485	0.004717392655351462	mom walking walked sleep dad pain hurt walk dinner asleep clothes running sound dancing fight tired course scared parent 
+21	0.15418
+ 0	55459	0.0019231728208458517	sunglass glass round black metal oversized circle cat circular lens eye-glass plastic aviator mirror horn flat frame mirrored hm 
+ 1	3712	0.004717392655351462	retro vintage protection hippie steampunk unisex futuristic independenceday amsterdam cheerleader delevingne streetwear sandy thinkin passionate nice tumblr birthday appeal 
+22	0.17767
+ 0	30160	0.0019231728208458517	shoe top white blue dot green neck cotton stella navy striped embroidered tie metallic tank-top zipper vneck scoop stripe 
+ 1	2878	0.004717392655351462	summerstyle summeroutfit summerfashion summertime summerdress fashionista summerloves bbq summersandals summerbbq casualoutfit mystyle simpleoutfit celebritystyle whiteonwhite lookforless outfitonly animalprint bohochic 
+23	0.1721
+ 0	30042	0.0019231728208458517	shirt black top topshop white sleeve cotton checked kohl crop-top crop polyester rayon print monki checkerboard asos halter up 
+ 1	2156	0.004717392655351462	concert date character awesome august lazy stage cute break course random album lonely fanfiction rest wake problem comfy underground 
+24	0.21024
+ 0	67236	0.0019231728208458517	jean skinny midrise wash blue stretch acid slim faded denim all fit medium for brand frame paige cropped dark 
+ 1	2946	0.004717392655351462	faded summer lightweight capri retro christmas american unisex punk wet biker cheap army ig easter freedom hopefully alone asf 
+25	0.17578
+ 0	30383	0.0019231728208458517	top print shoe white blue crop pattern high green pink back open zipper mesh animal leopard sole mint embroidered 
+ 1	2115	0.004717392655351462	pretty cute clothes girly family morning casual bbq watching bday weekendstyle simpleset visit everyday used sol match lover normal 
+26	0.18735
+ 0	31623	0.0019231728208458517	shoe high heel ankle platform white blue strap leather pink toe wedge heeled open embellished topshop back nude cut 
+ 1	2240	0.004717392655351462	fun perfect beautiful lovely wonderful tumblr date streetstyle crazy dinner listen summerfashion backtoschool pool stupid modern obsessed weeknd rebel 
+27	0.21015
+ 0	77608	0.0019231728208458517	ring diamond gold 14k jewelry 18k cocktail cut pave silver rose sapphire round cz oval heart bridal set solitaire 
+ 1	4736	0.004717392655351462	engagement wedding band anniversary platinum accent eternity deco antique fine brilliant beer radiant rant manager gently gaming numb sightseeing 
+28	0.14345
+ 0	37954	0.0019231728208458517	glass black clear lens round sunglass shoe wayfarer eyeglass oversized metal plastic square kohl purple hm blue cat thick 
+ 1	2604	0.004717392655351462	vintage retro hipster protection muse indie gross cozy pretty fashionset tumblr date relationship summerfashion daily scratch surprise curtain backstage 
+29	0.17212
+ 0	30114	0.0019231728208458517	shirt top white sleeve crop cotton blue green red print purple camo camouflage polyester pattern fit embroidered fitted cap 
+ 1	2155	0.004717392655351462	cute pretty amazing modern date classic july movie awesome saturday club streetstyle sleep disneyprincess disneycharacter thanksgiving concert simpleset mystyle 
+30	0.16871
+ 0	35586	0.0019231728208458517	shirt tank tank-top layering neck top scoop ribbed blue sleeveless grey loose back slim fit gray cotton jersey rib 
+ 1	2443	0.004717392655351462	layering night wet match spring cool mix college easy seamless teacher mutant crazy sleepover europe newyork springcardigan ticket seriously 
+31	0.17883
+ 0	30222	0.0019231728208458517	shoe top white high forever strap ankle crop back toe lace low rayon sleeveless wedge open woven new crop-top 
+ 1	2319	0.004717392655351462	streetstyle getthelook streetchic classy datenight date fabulous bloggerstyle nightout daytonight summerfashion whattowear city casualchic simpleoutfits tumblr artset collab trending 
+32	0.17348
+ 0	32898	0.0019231728208458517	black shirt top island river tall shoe white crop kohl jersey zipper high pink topshop cream highwaisted asos oversized 
+ 1	2086	0.004717392655351462	summer retro calypso summerstyle character birthday game chic lovely tired outside seasidewedding bday sheeran playing interesting random perfection cuddle 
+33	0.17271
+ 0	31818	0.0019231728208458517	shirt white sleeve blouse blue button collared down crop-top sleeveless striped cotton no tie navy oversized poplin bcbgmaxazria checked 
+ 1	2194	0.004717392655351462	pretty trend prize cool power grand seen concert april musthave run casualchic audition brunch summeroutfit learn warm halloween kpop 
+34	0.15968
+ 0	35301	0.0019231728208458517	leather purse black laurent saint yves skirt suede pocket mini high brown zipper red heel fringe metallic heeled monogrammed 
+ 1	2121	0.004717392655351462	party trend holiday streetstyle july city clothes beautiful couture cool chic casualchic funny luxe biker nice new-york walk bloggerstyle 
+35	0.18202
+ 0	59133	0.0019231728208458517	boot lace up combat booty black jean laced dr skinny midcalf vegan low faux zipper ankle fold frye stretch 
+ 1	6895	0.004717392655351462	combat military army wtf sweetness fuchsiaandturquoise depression 
+36	0.17453
+ 0	29270	0.0019231728208458517	shirt black top sleeve white kohl sleeveless crop-top long cotton striped and neck crop hm fit slim no tall 
+ 1	2722	0.004717392655351462	fashionset streetstyle summerstyle classy fashionista streetchic celebritystyle london stylish lovely saturday springfashion autumn coffee elegance lookforless school workwear springstyle 
+37	0.15532
+ 0	53245	0.0019231728208458517	hat beanie black cap slouchy snapback knit embroidered acrylic saggy logo adjustable pom bucket fisherman van baseball grey converse 
+ 1	3030	0.004717392655351462	chunky fishing sport american retro sweat truck army military ski unisex holiday skate grunge married fair fuzzy obey noir 
+38	0.17453
+ 0	29434	0.0019231728208458517	shirt top white black sleeve long print polyester pocket collared button striped purple crop-top zipper tall oversized fit low 
+ 1	2050	0.004717392655351462	school birthday nice fall kind away summerstyle kitchen festival playing 4th resort rest thursday taste smart tumblr paradise routine 
+39	0.17381
+ 0	39888	0.0019231728208458517	shoe colorful color multi jewelry tri multicolor colored blue leather block pink print with ca love-from floral flower rainbow 
+ 1	2329	0.004717392655351462	summer party retro fun hippie fitting dressy fabulous french match abstract weekend town denimstyle business bold darling kyliejenner sheeran 
+40	0.21704
+ 0	55290	0.0019231728208458517	necklace pendant chain jewelry silver crystal heart long adjustable givenchy gold metal collar layered sparkly cross star 14k cable 
+ 1	2754	0.004717392655351462	vintage rock sparkly boho christmas holiday anniversary couture fun strong sydney chill florence wonderful passion essential seasideresort aphrodite moving 
+41	0.12772
+ 0	40537	0.0019231728208458517	scarf shawl circle tube infinity round loop silk wrap lightweight long red brown print patterned knit cashmere woven fringed 
+ 1	2762	0.004717392655351462	tube lightweight holiday christmas vintage london beautytrend bazaar country warm instagram ruffled sunset happy dressy diy weather sad actress 
+42	0.20219
+ 0	51702	0.0019231728208458517	pump heel high pointedtoe christian red platform peeptoe suede patent stiletto nude evening dorsay opentoe pointy bodycon sequin heel-pump 
+ 1	2670	0.004717392655351462	sexy party special occasion holiday wedding prom fancy streetstyle feminine complete office bomberjacket harmony 3rd graduation sadness shy horan 
+43	0.16577
+ 0	30993	0.0019231728208458517	shirt shoe blue print galaxy purple top sweatpants cosmic pattern cotton sleeve canvas converse planet star polyester studded van 
+ 1	2065	0.004717392655351462	sweat summer happy movie mustache dressy bored game bae roleplay galactic yoga diva bride hunger popular asf changed dance 
+44	0.16668
+ 0	36771	0.0019231728208458517	camisole top tank-top tank cami shoe cropped white blue neck chiffon loose denim strappy fit toe print colorful slim 
+ 1	2296	0.004717392655351462	summer beach layering american party sexy rock sme chic amazing dressy mom bday piano fanfiction october goal watching painting 
+45	0.19642
+ 0	59746	0.0019231728208458517	dress cocktail mini evening flare skater lace strapless kohl line sleeveless swing out embellished trapeze cut wrap bodycon belted 
+ 1	3355	0.004717392655351462	special occasion holiday party prom sparkly rockabilly film glamorous pineapple rhythm hippie wwe 10th puff divine rushed asian blackhawks 
+46	0.21339
+ 0	56675	0.0019231728208458517	earring gold jewelry stud post 14k drop hook dangle hoop triangle scott pave crystal silver triangular square chandelier fish 
+ 1	2945	0.004717392655351462	french vintage graduation dance bohemian ball special lightning bolt fine yoga gypsy clothes gym bae modern goddess hiphop tropical 
+47	0.16865
+ 0	65996	0.0019231728208458517	hat wide fedora floppy brimmed brim-hat straw black wool sun felt leather rag crown ankle forever brown panama fur 
+ 1	3832	0.004717392655351462	beach band summer bohemian derby nautical nauticalstyle babe comedy fallhat russia orleans genie bleh stubborn university wifey bum clothes 
+48	0.16925
+ 0	31955	0.0019231728208458517	top blouse leather heel sheer see long red sleeve silk toe transparent mini orange pleated metallic leopard front tuxedo 
+ 1	2104	0.004717392655351462	tuxedo casual cute weekend city london pretty clothes run daughter swift easy student whattowear monday springsummer fresh audition vogue 
+49	0.21297
+ 0	57891	0.0019231728208458517	earring stud jewelry silver post free nickel clear cz heart wrap studded hoop johnson drop pave butterfly bow daisy 
+ 1	2798	0.004717392655351462	gothic holiday grunge vintage nautical anniversary hippie goth valentine comfy winter dance wild safe noir boarding power comfort emojifashion 
+50	0.18951
+ 0	35080	0.0019231728208458517	shoe high heel stiletto platform heel-stiletto toe heeled red yellow mini diane suede leather von-furstenberg evening cut out patent 
+ 1	2105	0.004717392655351462	happy special fashionset real comfy july city office dinner wild sunny cool lonely moon geek sunset sad valentinesday paradise 
+51	0.20833
+ 0	55580	0.0019231728208458517	necklace pendant jewelry chain silver heart diamond charm gold initial bronze letter anchor locket round pave antique cross 14k 
+ 1	2917	0.004717392655351462	bronze antique nautical party special valentine ball gothic fine steampunk victorian sydney sailor imagine fave rp pirate crazy horizon 
+52	0.16955
+ 0	40892	0.0019231728208458517	hair-accessory flower pink hair-clip bow hair forever rose elastic floral white red hm blue scrunchie pin lace comb bow-accessory 
+ 1	2473	0.004717392655351462	vintage rockabilly sparkly couture prom formal school happy wet luxe movie safety goody snow indian new-york yahoostyle preppy swimming 
+53	0.18341
+ 0	34845	0.0019231728208458517	shoe flat oxford lace blue leather wingtip sole crochet grey tan zara brogue fit tom loafer slipon saddle mango 
+ 1	2199	0.004717392655351462	cute girly fall away awesome casual kind friday cold menswear weekend course seen streetstyle feminine trendy game simpleoutfits relationship 
+54	0.17377
+ 0	30340	0.0019231728208458517	shirt top blue white sleeve cotton fit crop navy striped print slim zipper and sleeveless red neck rayon loose 
+ 1	2067	0.004717392655351462	fun casual concert basic romantic game weekend coffee warm babe chic lover fashionset drama anniversary taste sleep watching album 
+55	0.19582
+ 0	61075	0.0019231728208458517	dress cocktail sleeveless mini bodycon maxi lace out shift back halter chiffon backless cut sheath slimming lacesleeve plus-size neckline 
+ 1	2963	0.004717392655351462	party sexy night beach boho fitting posh glamorous dressunder formal summerdress tropical rare florida bottle starry dailylook miley vintageinspired 
+56	0.21726
+ 0	63541	0.0019231728208458517	sandal flat strappy gladiator strap greek thong heeled roman jelly brown ankle jeweled tbar flip embellished maxi tan glitter 
+ 1	3194	0.004717392655351462	summer beach boho bohemian flop ancient beachstyle fitting prayer greece theme meeting slow runaway focused dollhouse mixitup rio effortless 
+57	0.18684
+ 0	37358	0.0019231728208458517	flat shoe toe pointed leather pointy on slip loafer slipon snake zara dorsay navy yellow vegan pointytoe striped jcrew 
+ 1	2127	0.004717392655351462	summer night beautiful lovely spring summerstyle pretty fashionset away beach easter twisted cold casualoutfit fresh exam amusementpark fave mess 
+58	0.13632
+ 0	62731	0.0019231728208458517	headband hair-accessory wrap head hair crown flower bow floral bandana braided elastic accessory stretch cat knotted garland daisy ear 
+ 1	4004	0.004717392655351462	band boho hippie wet bohemian american cowboy sparkly yoga running jumping succeed kyle dwarf jail snowwhite addicted supreme bitter 
+59	0.15117
+ 0	28979	0.0019231728208458517	black shoe costume white red kohl blue long leather high disney stretch green yellow neck and mini purple animal 
+ 1	2263	0.004717392655351462	halloween-costume cosplay role renaissance victorian masquerade character fairy ball concert snow anime halloween lazy witch sleeping pirate bride carnival 
+60	0.19908
+ 0	49656	0.0019231728208458517	bracelet jewelry gold diamond 18k rose cuff preowned 14k cartier studded chanel david pearl chain polish wrap onyx cable 
+ 1	2527	0.004717392655351462	band wedding fine vintage holiday tennis special summeroutfit graduation fancy fleur accent formal streetchic stealherstyle meeting classy gogo seat 
+61	0.19552
+ 0	48000	0.0019231728208458517	pump heel platform high peeptoe red suede christian jane mary opentoe patent shoe pointedtoe satin sequin glitter peplum jessica 
+ 1	2461	0.004717392655351462	sexy party vintage prom sparkly holiday bridesmaid night fun nature friday homecoming bored future timeless redlips stronger disappear airport 
+62	0.18077
+ 0	34989	0.0019231728208458517	black booty lace up high platform ankle heel wedge suede laced ankle-boot laceup campbell heel-stiletto turtleneck monki chunky balmain 
+ 1	2047	0.004717392655351462	night peep date casual punk christmas perfect roleplay ugly casualchic villain slow dedicated dressy 1st redcarpet lovely fashionista routine 
+63	0.23256
+ 0	91269	0.0019231728208458517	jean ripped distressed destroyed skinny boyfriend blue distressing brand torn destructed midrise baggy frame bleached currentelliott timberland dondup work 
+ 1	3420	0.004717392655351462	vintage military american rock sport punk army unisex sweat retro relaxed summer hipster skate brother weekendstyle sparkly dressy 5sosfam 
+64	0.16424
+ 0	30466	0.0019231728208458517	black top shirt leather white golf wrap skort strap ankle asymmetrical crop cotton zipper zara pocket miss kohl petite 
+ 1	2065	0.004717392655351462	golf egyptian fun school away beautiful bored happy lover july glamour nightout sound simpleoutfit boring bae pll sunset trophy 
+65	0.16417
+ 0	29492	0.0019231728208458517	shirt black top hm white sleeve blue overall panty cotton crop jersey denim kohl crop-top bib sleeveless metal print 
+ 1	2046	0.004717392655351462	night perfect monday date movie run fall brief pretty sleep watching used summerstyle album june awesome basic smart eat 
+66	0.20008
+ 0	48894	0.0019231728208458517	jewelry gemstone silver gem kohl button steel body ring belly studded clear polish lip skull handcrafted spike cross crystal 
+ 1	2615	0.004717392655351462	ball punk sexy gothic grunge king occasion native wet tired nautical noir theme trendy glow bolt daughter event sunny 
+67	0.20516
+ 0	51219	0.0019231728208458517	necklace chain statement collar bib heel shell long pendant seashell stone bead layered shoe teardrop cole disc strap tassel 
+ 1	2793	0.004717392655351462	seashell summer vintage beach nautical chunky pear sparkly family shade mix adorable bound baroque horan feminist harmony maker wonderful 
+68	0.1762
+ 0	30309	0.0019231728208458517	black top white leather shoe and zipper high topshop cut crop-top out sleeveless zip james mini elizabeth zara tie 
+ 1	2251	0.004717392655351462	colour cool vacation awesome power listen rest award playing cancer afraid goal adventure fresh outside leader harmony ashtonkate understanding 
+69	0.18056
+ 0	33339	0.0019231728208458517	leather michael high shoe heel white kor michael-kor platform ankle strap black heeled ruffle mini red toe evening metallic 
+ 1	2312	0.004717392655351462	lovely streetstyle bloggerstyle happy classy city gorgeous fashionset weekend comfy stealherstyle outfitonly classic sunnies dedicated sad tumblr summertime pool 
+70	0.17737
+ 0	37549	0.0019231728208458517	skirt elastic waist top pleated pencil pattern mini slit front bodycon ruffle striped tie fitted jersey cream asymmetrical line 
+ 1	2151	0.004717392655351462	summer amazing streetstyle fabulous lovely birthday trip game boutique money preppy couture cold peep getaway instagram easy halloween awesome 
+71	0.18313
+ 0	35312	0.0019231728208458517	black jewelry marc by-marc-jacob leather shoe kohl high rose silver studded polish heart steel white guess jacob logo enamel 
+ 1	2144	0.004717392655351462	fun date family coachella spring festival nice fragrance moon award comfortable indie babe easter festivalstyle irresistible proud bae ugly 
+72	0.1749
+ 0	31907	0.0019231728208458517	shirt sleeve black long cotton print collared crop-top button oversized down boyfriend plaid gray flannel checked grey letter no 
+ 1	2191	0.004717392655351462	hipster punk casual date tumblr vacation saturday mix wonderful ariana random indie simpleoutfits drink worry bride relationship future resort 
+73	0.2036
+ 0	54191	0.0019231728208458517	pump heel pointedtoe stiletto high pointy toe heel-pump suede patent christian heel-stiletto nude rossi casadei slingback pencil stiletto-pump qupid 
+ 1	2614	0.004717392655351462	sexy vintage summer night prom couture getthelook london date springbrunch denimstyle june wednesday drink humor arrow proper shy pain 
+74	0.17898
+ 0	30836	0.0019231728208458517	shoe top white blue black adidas striped and cotton original shirt topshop low stripe crop-top crop navy perforated print 
+ 1	2097	0.004717392655351462	movie concert amazing imagine sporty vacation comfortable running sunnies parade problem california ride matching wonderful money fandom lunch june 
+75	0.18225
+ 0	31063	0.0019231728208458517	shoe high top white leather blue heel suede on slip stuart sleeveless green yellow weitzman metallic neck platform evening 
+ 1	2163	0.004717392655351462	summerstyle lord spring school june july hawk minimal wonderful game kind bbq minimalism sex working trendy advice season seen 
+76	0.1603
+ 0	36325	0.0019231728208458517	shoe jean shirt converse sneaker trainer rubber grip sole star traction low skinny lightweight denim van bear canvas cushioned 
+ 1	2664	0.004717392655351462	trainer american lightweight guard ski curl seen nervous sunniesandswimwear skate daughter thursday routine magical baes celebs bloody autism twilight 
+77	0.17283
+ 0	29991	0.0019231728208458517	shirt top white print crop sleeve pink cotton blue sleeveless red pattern tie back fitted front mesh open letter 
+ 1	2023	0.004717392655351462	chic trend summer happy town rain 4th nice july fun season morning modern pineapple fashiontrend audition mood getthestyle memorial 
+78	0.17227
+ 0	34898	0.0019231728208458517	shirt plaid black tartan red flannel sleeve down long button collared cotton and bleach roll crop-top no checked element 
+ 1	2261	0.004717392655351462	bleach party rock birthday summer grunge happy audition moon used preppy morning match casualoutfit future advice clothes seriously working 
+79	0.16804
+ 0	30298	0.0019231728208458517	shoe top kimono white floral blue chiffon tassel flower print robe fringe lace toe long loose sleeveless open embellished 
+ 1	2049	0.004717392655351462	summer beach girly date pretty watching coachella streetchic match cute sleep beachwear coffee theme event daily bae vintageinspired fear 
+80	0.16332
+ 0	49795	0.0019231728208458517	coat tote purse tote-bag long wool zip skirt brown zippered leather beige double fur faux green oversized parka lapel 
+ 1	2528	0.004717392655351462	vintage winter chunky occasion peep stylish christmas kind blackfive winterstyle essential office celebritystyle everyday winterfashion selenagomez waterfall fashionweek unique 
+81	0.16243
+ 0	39085	0.0019231728208458517	cardigan top long sleeve open knit front loose oversized brown vneck button grey draped ribbed waterfall pocket cashmere beige 
+ 1	2383	0.004717392655351462	summer getaway holiday waterfall relaxed trip perfect giveaway morning club friday warmweather casualoutfit flawless weight walk london fling wednesday 
+82	0.194
+ 0	47808	0.0019231728208458517	earring spade kate gold stud pink jewelry pearl 14k post bow heart case of iphone mother statement filled rose 
+ 1	2524	0.004717392655351462	holiday summer special party couture fancy french graduation fabulous brother lux garden dylan easter classy wet future denimstyle poetic 
+83	0.14926
+ 0	33665	0.0019231728208458517	iphone headphone black case shoe shirt white earbuds blue kohl earbud people by free and metallic metal low grey 
+ 1	2122	0.004717392655351462	summer party sport happy night gravity hipster grunge tennis creative birthday funny thanksgiving bride warm student wild howtowear listen 
+84	0.18419
+ 0	31707	0.0019231728208458517	shoe high black heel blue leather white ankle platform strap toe fit suede zipper open heeled buckle embellished neck 
+ 1	2441	0.004717392655351462	family school dad happy town married daughter money hurt country wonderful job drug mom boring marriage pregnant meeting safe 
+85	0.18081
+ 0	56223	0.0019231728208458517	boot ankle bootie short booty brown australia dr zipper tall lined up lace sheepskin stretch gray faux button sheep 
+ 1	3317	0.004717392655351462	cowgirl cowboy western rain holiday country riding random celebrate monday ski colorado poolparty cute important bonfire romantic cozy upcoming 
+86	0.1874
+ 0	75830	0.0019231728208458517	watch bracelet steel dial michael gold kor resistant water chronograph analog jewelry buckle chrono bezel rose leatherstrap burton olivia 
+ 1	3132	0.004717392655351462	sport band retro vintage unisex holiday party military sporty couture american special spring preppy fatale glam friday freestyle triathlon 
+87	0.21068
+ 0	60890	0.0019231728208458517	bracelet bangle hinged jewelry gold cuff stackable stacker enamel orange wide coral wrap stone resin alexis metal lucite golden 
+ 1	2933	0.004717392655351462	boho bohemian vintage deco holiday occasion sexy nautical happy ball brother dad friendship thelodown beachbag transition highlowstyle difficult bank 
+88	0.17041
+ 0	38901	0.0019231728208458517	flower floral crown pink garland rose white shoe leaf print blossom tiara rhinestone jewelry stretch forever crystal lace crochet 
+ 1	2349	0.004717392655351462	boho party wedding wet prom formal easter rapunzel hipster amazing summerfashion warm fam newyork stupid tangled miley asleep amusementpark 
+89	0.20943
+ 0	54723	0.0019231728208458517	necklace chain strand pendant gold collar bead multi layered pearl multichain long adjustable multistrand crystal jewel bib vince cross 
+ 1	2650	0.004717392655351462	vintage summer party graduation bohemian ball wet charming game future graduate sadness ridiculous flying iggy weed statementnecklace fourth strange 
+90	0.17543
+ 0	31507	0.0019231728208458517	shoe top shirt blue van cushioned flat sole west boat denim rubber cotton nine deck grey print fit light 
+ 1	2118	0.004717392655351462	deck casual school july pretty game everyday summerstyle morning hopefully drink summerdress wild chill similar paired summerbbq artset eat 
+91	0.17807
+ 0	30539	0.0019231728208458517	black shirt kohl top leather high umbrella mini zipper and sleeve print topshop pocket cotton dot striped snap woven 
+ 1	2217	0.004717392655351462	cute beautiful school rain fun perfect july grunge springsummer break nightout backtoschool rainy active normal summersandals sad pretty lolita 
+92	0.19299
+ 0	38298	0.0019231728208458517	jewelry black kohl handcrafted house studded leather polish adjustable stretch market metal of-harlow pyramid onyx engraved carved statement valentino 
+ 1	2239	0.004717392655351462	holiday party cute ball birthday casualchic date school perfect crazy city manda clothes summertime piercings lazy monday outside easter 
+93	0.17429
+ 0	42891	0.0019231728208458517	boot knee lace up high black over brown zipper zip suede the ankle tall timberland leather side thigh waterproof 
+ 1	2378	0.004717392655351462	chunky vintage riding holiday winter military rain fall autumn fancy casualchic hiking steampunk snow pirate naughty proof wwe walking 
+94	0.13625
+ 0	55523	0.0019231728208458517	jacket skirt leather zip moto faux cropped black motorcycle denim blazer pocket vegan collar long brown quilted zipper lined 
+ 1	3926	0.004717392655351462	biker motorcycle motorcycle-jacket bomber college chunky varsity army chic parent asian grocery rant outsider fair heaven curse everlasting stronger 
+95	0.19513
+ 0	53465	0.0019231728208458517	purse handbag skirt satchel handle leather snakeskin snake python beige crocodile crossbody structured metallic pointed miniature colorblock pu croc 
+ 1	2566	0.004717392655351462	special occasion chic weekend july peep posh elegance busy basic dinner visit feminine bowling haul celebritystyle fresh lookforless pretty 
+96	0.19142
+ 0	48532	0.0019231728208458517	charm jewelry silver bracelet pendant clasp gold heart bead acrylic lucite daisy dangle feather flower hardy john dog owl 
+ 1	2606	0.004717392655351462	vintage bohemian hardy clay origami graduation nautical rock missy fun friendship walk octopus redlips cabin outside picnic tower raised 
+97	0.2003
+ 0	51705	0.0019231728208458517	short denim highwaisted distressed micro torn highwaist tank-top cuffed eagle-outfitter twill hm frayed crochet flag hot loose waistband bermuda 
+ 1	2621	0.004717392655351462	summer american vintage beach relaxed skate bermuda boho alive grunge horan ancient besties iggy warrior vacation percy harder parent 
+98	0.15603
+ 0	56413	0.0019231728208458517	bag backpack rucksack zip knapsack drawstring strap handle zipper leather pocket brown courier messenger-bag vegan shoulder flap logo pattern 
+ 1	2590	0.004717392655351462	vintage summer retro wet beach messenger backtoschool july bum overnight bowling ceremony fall cambridge weekend summerstaples gym fourth trip 
+99	0.1478
+ 0	32755	0.0019231728208458517	shirt sweatshirt black hoodie print top hoodies grey zipper unisex blue hooded cotton zip graphic up fit pullover cropped 
+ 1	2413	0.004717392655351462	sweat unisex sport school monday family romance preppy ariana morning bae sleep tumblr edward percy dying darker aria mix 
+100	0.19887
+ 0	57781	0.0019231728208458517	short denim distressed cutoff torn highwaisted ripped levi high-waisted aropostale light bleached graphic flag tiedye cut-offs dyed dip roll 
+ 1	3131	0.004717392655351462	cutoff summer vintage punk hipster hawaii getaway radio student seattle explode sunny independence flying holidaystyle indian blueandsilver mystic confusing 
+101	0.1524
+ 0	33929	0.0019231728208458517	wallet leather zipper bag skirt zip pocket pouch pink black brown snap coin green mini michael evening holder card 
+ 1	2002	0.004717392655351462	summer occasion beautiful city july trend classy april paradise chic away cheap coffee spice plot menswear lonely brooklyn visit 
+102	0.17592
+ 0	41944	0.0019231728208458517	sandal romper heeled strap jumpsuit strappy ankle platform wedge floral sleeveless high suit neck open chiffon heel steve toe 
+ 1	2391	0.004717392655351462	summer beach bohemian peep sexy dressy vacation birthday formal garden 60secondstyle summerdress springsummer amusementpark neutral running listen dreamer heaven 
+103	0.17397
+ 0	30609	0.0019231728208458517	top shoe white shirt pink high crop crop-top print cage topshop cutout metallic rib neck bralette geometric holographic cross 
+ 1	2194	0.004717392655351462	cage fashionset kawaii beautiful anime fun rain night getthelook fear lolita blah hopefully weird wwe fairy backtoschool japan studying 
+104	0.18246
+ 0	44523	0.0019231728208458517	jewelry fake jewellery imitation artificial silver earring cuff stone chain accessorize layered republic banana polish forever kohl stretch brass 
+ 1	2535	0.004717392655351462	bohemian boho occasion gothic wet ball goth precious vampire gorgeous babe hopefully vamp gypsy hang allblack packandgo french crush 
+105	0.21391
+ 0	55322	0.0019231728208458517	earring gold jewelry 18k drop crystal diamond clip rose teardrop swarovski pearl clipon 14k clear pave chandelier quartz hoop 
+ 1	2655	0.004717392655351462	vintage special occasion holiday sparkly wedding couture fine accent screw chinese happiness essential tennis mistake smokey funny seasidewedding messy 
+106	0.18721
+ 0	45575	0.0019231728208458517	bracelet jewelry black kohl rubber logo skull bridal studded spike piece heart snap string and lucite acrylic skeleton steel 
+ 1	2430	0.004717392655351462	punk gothic rock cute union glow grunge king festival rocker british bride hurt instagram junk weird bold drink grayce 
+107	0.15999
+ 0	32510	0.0019231728208458517	black glove leather red kohl stretch long lace studded faux skull and lined up evening zipper alexander bow vegan 
+ 1	2257	0.004717392655351462	gothic winter victorian steampunk bike character warmer amazing fancy carolina perfect audition anime recipe cooky opera season crowd london 
+108	0.1777
+ 0	39135	0.0019231728208458517	tee sleeve t-shirt neck cotton white scoop crew loose graphic print striped fit grey cap tshirts tshirt jersey black 
+ 1	2305	0.004717392655351462	vintage summer sport american date rock retro friday preppy basic peep night real trip goal weird diy moon film 
+109	0.2373
+ 0	67133	0.0019231728208458517	sandal heeled strappy strap platform wedge ankle open heel high caged toe nude slingback crisscross tbar cork heel-stiletto flatform 
+ 1	3040	0.004717392655351462	summer peep caged chunky beach french matching minimal unique family dressuk classic pretty kind hiking downtown escape attending stylerut 
+110	0.17563
+ 0	35825	0.0019231728208458517	skirt top pleated pencil wrap asymmetrical pattern draped lang slit line long helmut front stretchy fitted cutout turtleneck aline 
+ 1	2226	0.004717392655351462	happy fall beautiful cute birthday city easter office summertime staple imagine autumn rain vibe perfect daughter colour instagram puff 
+111	0.17282
+ 0	31997	0.0019231728208458517	top black white crop crop-top shirt bralette topshop bustier lace red neckline sweetheart bandeau corset tall vneck bandage spandex 
+ 1	2191	0.004717392655351462	birthday spring break cool streetstyle trip weekend tropical sad dance bang formal teen kind season bored imagine casualoutfit august 
+112	0.17692
+ 0	58067	0.0019231728208458517	sweater knit sleeve pullover cropped neck wool jumper grey cable cashmere loose ribbed chunky crew long brown crewneck acrylic 
+ 1	2931	0.004717392655351462	vintage christmas holiday lightweight snowflake military party fine snow cold cozy fuzzy chill ceremony cheap sweaterweather indie dailylook freezing 
+113	0.18236
+ 0	57524	0.0019231728208458517	dress cocktail mini gown beaded chiffon long sequin line lace evening sweetheart strapless one baby shoulder doll maxi tulle 
+ 1	3498	0.004717392655351462	prom bridesmaid party homecoming formal quinceanera wedding ball-gown promstory popular alumnus gala luxurious femme poor smash casualfriday homework caftanstyle 
+114	0.17147
+ 0	29456	0.0019231728208458517	top sleeve white green pink red long blue toe round sleeveless crop vneck deep neck yellow v-neck beige shrug 
+ 1	2003	0.004717392655351462	night spring casual beautiful break awesome lyric june everyday fashionista unique sleep cozy sunshine cabin heat warm tired bottle 
+115	0.16865
+ 0	32154	0.0019231728208458517	shirt top black t-shirt muscle graphic crop cotton grey sleeve tank oversized print gray tee crew low unisex white 
+ 1	2228	0.004717392655351462	muscle summer retro happy hurt bae weather clothes summercamp valentine cheap horror minimalism daily fairytale scare celebration workout interview 
+116	0.17362
+ 0	29568	0.0019231728208458517	shirt top white print blue pattern tall hm sleeveless embroidered tie loose floral mesh zara fit light burgundy tribal 
+ 1	2397	0.004717392655351462	school family problem parent fear college money job course grade moving sadness crazy steal soldier service event teenager dying 
+117	0.17088
+ 0	29360	0.0019231728208458517	shirt shoe top white blue fit sleeve faux slim cotton crop low loose synthetic grey polyester nubuck gray topshop 
+ 1	2233	0.004717392655351462	date lovely beautiful pretty casualoutfit romantic gorgeous fabulous amazing dance london idol award 5sosfam glamorous louteasdale cold england brazil 
+118	0.16297
+ 0	30446	0.0019231728208458517	vest top shirt blue white denim black brown sleeveless print studded cropped faux long pattern fit zipper neck fringe 
+ 1	1978	0.004717392655351462	summer school amazing dinner bored dance indian edgy cool strong adventure watermelon indie ball warmweather cuddle trendy rebel dope 
+119	0.18617
+ 0	33082	0.0019231728208458517	shoe high heel leather platform pink toe suede patent valentino nude on slipon embellished orange christian pointed slingback steve 
+ 1	3165	0.004717392655351462	spring springfashion springstyle springsummer fashiontrend trend fashionista springtrend trendy summeroutfit stylish fashionset fashionweek polyvorewishlist trending springessentials fantasy beyonce trickytrend 
+120	0.19298
+ 0	54758	0.0019231728208458517	purse handbag crossbody shoulder bag strap leather body cross fringe brown mini vegan chloe bucket hobo quilted saddle drawstring 
+ 1	2594	0.004717392655351462	summer hobo cool chic streetchic hippie fun new-york casualchic essential fall summerstaples workwear gypsy beachstyle daytonight weekend glam coffee 
+121	0.17169
+ 0	30036	0.0019231728208458517	top white crop shoe lace ruched crochet floral halter back sleeveless blue high woven front open yellow macrame striped 
+ 1	2359	0.004717392655351462	fashionset beautiful nice lovely stylish gorgeous chic glam magazine photography photoshoot blonde classic swag actress confident fantasy mess getthelook 
+122	0.1961
+ 0	52608	0.0019231728208458517	purse handbag skirt leather chanel handle quilted satchel structured beige crossbody tote flap valentino clutch pointed dolcegabbana patent foldover 
+ 1	2502	0.004717392655351462	special occasion envelope chic spring 4th stylish amazing fun trendy fancy daytonight trend perfect elegance ceremony lover matching coffee 
+123	0.20012
+ 0	46528	0.0019231728208458517	jewelry gold antique crystal flower pin brooch pearl blossom preowned chanel swarovski rose polish beaded cuff metallic rhinestone beading 
+ 1	2840	0.004717392655351462	antique vintage victorian season steampunk frost romance teen theme nouveau hawaii award easy bang thunder superstar outdoors birth plain 
+124	0.1953
+ 0	58664	0.0019231728208458517	dress sleeveless floral mini flare out pattern skater cut flower cocktail botanical ruched strapless back chiffon line ruching shirtdress 
+ 1	2975	0.004717392655351462	vintage summer botanical night bohemian peep fitting wedding sexy formal dressy cheap abstract destination beachwedding film highlight strawberry weeknd 
+125	0.1788
+ 0	69961	0.0019231728208458517	pant legging elastic waist trouser zip slim highwaisted pocket stretch fit highwaist on wideleg slimming patterned jeggings straight crop 
+ 1	3105	0.004717392655351462	sexy lightweight summer sport vintage military relaxed rock capri boho party american seamless jogging yoga bike fitting winter formal 
+126	0.191
+ 0	49653	0.0019231728208458517	earring jewelry gold diamond 18k stud white co tiffany pearl round 14k preowned post platinum south sea-pearl back sparkle 
+ 1	2791	0.004717392655351462	platinum occasion tennis night wedding pear screw fine winter weird wild accent weekend couture tomboy event carolina makeover beautytrend 
+127	0.1769
+ 0	28538	0.0019231728208458517	shirt top shoe white blue print high navy pattern green striped sleeveless neck crop-top embroidered vneck stripe animal brook 
+ 1	2073	0.004717392655351462	birthday away brother date perfect busy break game eat getthelook watching monday town theme rebel total uma lover pain 
+128	0.17688
+ 0	40817	0.0019231728208458517	purse skirt leather clutch alexander mcqueen box beige metallic skull clasp pleat evening red patent hard jacquard miniature glitter 
+ 1	2358	0.004717392655351462	envelope party chic cool classy lovely magazine wonderful girly death tumblr datenight fancy sunshine summeroutfit taste innocent 3rd comiccon 
+129	0.18965
+ 0	36214	0.0019231728208458517	shoe flat on sole slip rubber hm blue grey cushioned tom print moccasin round dark loafer sand twill birkenstock 
+ 1	2223	0.004717392655351462	beach sport night spring happy break trip audition balance roleplay casualchic shock 2k wednesday witch sunny crush ride ceremony 
+130	0.18268
+ 0	34467	0.0019231728208458517	shoe green yellow neon mint high toe floral platform flower heel pink zipper mini leather vegan lime daisy top 
+ 1	2152	0.004717392655351462	birthday occasion fluorescent chic spring trend morning awesome pretty shade fabulous weather family beyonce vibe summerdress beachwear glad real 
+131	0.17586
+ 0	40740	0.0019231728208458517	skirt length knee pleated pencil aline top green blouse yellow a-line striped beige full silk floral ruched wool dot 
+ 1	2217	0.004717392655351462	summer night winter mix colour springsummer fancy match kind amazing indie saturday country josh easy passion bae theme redlips 
+132	0.18593
+ 0	49012	0.0019231728208458517	necklace choker charm black tattoo clasp topshop stretch star kohl velvet plastic adjustable peace heart cord collar asos cross 
+ 1	2713	0.004717392655351462	gothic vintage punk grunge chunky cute goth tumblr run steampunk party warrior romance witch competition soundtrack daily pain indian 
+133	0.20038
+ 0	42639	0.0019231728208458517	jewelry silver crystal gold polish swarovski studded cuff chain pearl pave sparkle wrap metal stone rhinestone geometric metallic heel 
+ 1	2464	0.004717392655351462	wedding party bohemian warehouse perfect lunch june modern film happy abstract summeroutfit safety rp king seaside global lazy mom 
+134	0.18763
+ 0	47629	0.0019231728208458517	sneaker converse star canvas low jean rubber round lacing sole shoe toe up denim blue flag plimsoll van cap 
+ 1	2578	0.004717392655351462	american summer july unisex tennis 4th sport rocker rock cold teen gypsy fast simpleoutfit panic dirtbag dallas dameo nightmare 
+135	0.18876
+ 0	46808	0.0019231728208458517	sneaker shoe up lacing laced van lace canvas converse lightweight rubber low round waffle keds denim sole nike perforated 
+ 1	2674	0.004717392655351462	lightweight skate sport unisex balance concert grunge awesome proud random fun fandom pineapple horror mall bae sleeping scream summerbbq 
+136	0.17818
+ 0	31360	0.0019231728208458517	shoe top white shoulder off blue the leather strap sleeve high pink toe long embellished over cut beige chiffon 
+ 1	2089	0.004717392655351462	streetstyle beautiful cute morning spring friday season dinner girly busy casualchic shade town casualoutfit ride concert important coffee nice 
+137	0.18185
+ 0	42730	0.0019231728208458517	flat shoe ballet ballerina bow toe pointed skimmer pink pointy vegan wide patent aldo daisy chloe oasis slip melissa 
+ 1	2342	0.004717392655351462	summer party occasion fall couture sparkly dance fancy sailor comfy rocket gypsy happy cutie pvcurvychic lunch bestie june hawaii 
+138	0.17301
+ 0	30558	0.0019231728208458517	shirt white sleeve neck cotton slim fit grey scoop round tee top polyester gray blue tall oversized fitted loose 
+ 1	2061	0.004717392655351462	snowflake christmas birthday amazing casual happy break vibe bored puffy babe walking walk active weekend crush girly celebrate alone 
+139	0.18238
+ 0	43394	0.0019231728208458517	skirt flared skater circle pleated floral mini top plus green yellow jersey aline neon kenzo flare petite bubble petticoat 
+ 1	2363	0.004717392655351462	summer chic cute wet special pvcurvychic retro away alive sunshinesoaked simpleset sheeran cutie curve ariana curvy 1st mixing annoying 
+140	0.20811
+ 0	55065	0.0019231728208458517	bracelet bangle gold jewelry hinged cuff adjustable wrap studded silver chain wide and spike engraved cross clasp snap hammered 
+ 1	2644	0.004717392655351462	bohemian vintage band summer rock holiday graduation baroque special wedding brother abstract luxe sydney newyork summerfashion gryffindor event personality 
+141	0.21288
+ 0	53408	0.0019231728208458517	necklace chain layered gold collar pendant adjustable chunky double long link layer triangle crystal statement bib rhinestone forever lariat 
+ 1	2641	0.004717392655351462	chunky bohemian vintage summer anniversary bae occasion twisted cheap celebrate rocker simpleoutfits bohochic streetchic rebel walk newlook bri death 
+142	0.17272
+ 0	30088	0.0019231728208458517	shirt top blue white sleeve long green cotton shoe lauren zipper leather neck ralph-lauren navy brown polo beige crop 
+ 1	2137	0.004717392655351462	birthday movie fashionset brother busy sad classic june happiness kind afternoon popular california dance strong fight drink moon working 
+143	0.17459
+ 0	44395	0.0019231728208458517	skirt midi calf mid length pleated midcalf knee pattern line red full floral pencil striped aline tibi bodycon jacquard 
+ 1	2278	0.004717392655351462	summer sexy holiday party movie chic occasion caged spring twisted away bloggerstyle graduation warm neutral character kitchen tropical snow 
+144	0.18095
+ 0	48082	0.0019231728208458517	skirt skater circle flared pleated black stretchy shirt mini dot crop-top flare yellow bralette bustier dorothy circular geometric galaxy 
+ 1	2432	0.004717392655351462	summer retro holiday sexy party punk casual wet fun club walk lovely fall edgy sailor ariana writing garden town 
+145	0.18789
+ 0	33283	0.0019231728208458517	shoe high heel wedge platform leather white blue suede toe zipper sole slip on buckle cutout velcro slingback leopard 
+ 1	2088	0.004717392655351462	night school dinner used stylish summerstyle crazy neutral vacation delicious recipe pizza bestie ride fabulous artist gypsy walk nature 
+146	0.17179
+ 0	37289	0.0019231728208458517	skirt mini zipper leather brown pattern pencil line asymmetrical metallic turtleneck zip highlow mullet vivienne silk balmain petticoat skirting 
+ 1	2725	0.004717392655351462	realreal season cool trend backyard festive bbqs spring runway away origami impress pool geekchic geekfashion garden sunshinesoaked nightmare feature 
+147	0.20291
+ 0	76719	0.0019231728208458517	ring jewelry stackable midi midfinger set knuckle forever stacking stacker rhinestone mid topshop finger gold thin asos adjustable silver 
+ 1	3831	0.004717392655351462	band boho rock bohemian armor noir vibe jungle streetstyle tech bbq dancing berrypretty football bandit anime survived bohochic tenth 
+148	0.17391
+ 0	29675	0.0019231728208458517	shirt white sleeve top long cotton print blue purple studded pink collared polyester crew rayon red pattern jcrew no 
+ 1	2062	0.004717392655351462	spring cute perfect movie fall away romantic lazy kind 4th modern tumblr fight babe essential working horror vogue loud 
+149	0.1753
+ 0	32177	0.0019231728208458517	shirt slim fit blue sleeve long tall stretch white neck slimming grey collared navy crew button polyester low aropostale 
+ 1	2123	0.004717392655351462	cute casual relaxed spring monday everyday date break rp dressy sound dylan outside grayce christmas summeroutfit festival redandblack thursday 
