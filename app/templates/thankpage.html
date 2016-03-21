@@ -3,11 +3,11 @@
 <button id="restartbutton">Start New Survey</button>
 
 <script>
-                document.getElementById("restartbutton").addEventListener("click", function()
-                {
-                                var form = document.createElement('form');
-                                form.method = "GET";
-                                form.action = "{{url_for('index')}}";
-                                form.submit();
-                });
+		document.getElementById("restartbutton").addEventListener("click", function()
+		{
+				var form = document.createElement('form');
+				form.method = "GET";
+				form.action = "{{url_for('index')}}";
+				form.submit();
+		});
 </script>
