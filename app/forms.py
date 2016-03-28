@@ -12,5 +12,5 @@ class surveyForm(Form):
 class outfitForm(Form):
 	# page 1
 	outfit_one = TextAreaField('outfit_one', validators=[DataRequired()])
-	outfit_two = StringField('outfit_two', validators=[DataRequired()])
-	outfit_three = StringField('outfit_three', validators=[DataRequired()])
+	outfit_two = TextAreaField('outfit_two', validators=[DataRequired()])
+	outfit_three = TextAreaField('outfit_three', validators=[DataRequired()])
