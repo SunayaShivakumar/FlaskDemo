@@ -52,6 +52,14 @@ p{
         border:1px solid #aaaaaa;
         background-color: white;
 }
+
+#div1 > img {
+  width: auto;
+  height : auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
 </style>
 <title>Interface</title>
         <!--<link rel="stylesheet" type="text/css" href="./css/int.css">-->
@@ -82,7 +90,8 @@ p{
                 <table>
                         <tr>
                                 <td>
-                                        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                                        <div id="div1">
+                                                <img src = "app/templates/placeholder.png" alt = "placeholder"/>
                                         </div>
                                 </td>
                                 <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
