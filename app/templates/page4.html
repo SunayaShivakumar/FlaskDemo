@@ -1,0 +1,124 @@
+!DOCTYPE html>
+<html>
+<head>
+        <style type="text/css">
+        body {
+        width: 100%;
+        margin: auto;
+}
+
+.container{
+        width: 1200px;
+        margin: 0 auto;
+}
+
+.header{
+        background: #566D7E;
+        width: 100%;
+        top: 0;
+        position: fixed;
+}
+
+.logo{
+        float: left;
+        font-family: "neutra";
+        font-size: 15px;
+}
+
+a{
+        text-decoration: none;
+        color: #BBD8D8;
+}
+
+li{
+        list-style: none;
+        float: left;
+        margin-left: 15px;
+        padding-top: 10px;
+}
+
+.nav{
+        float: right;
+}
+
+p{
+        font-size: 20px;
+        font-family: "neutra";
+}
+#div1 {
+        width:325px;
+        height:250px;
+        padding:10px;
+        border:1px solid #aaaaaa;
+        background-color: white;
+}
+        </style>
+        <title>Interface</title>
+        <!--<link rel="stylesheet" type="text/css" href="./css/int.css">-->
+</head>
+<body style = "background-color:#BBD8D8;">
+        <div class="header">
+<!--    <form action="" method="post" name="post">
+ -->            <div class="container">
+                        <div class="logo">
+                                <h1 style = "color: #BBD8D8">P. S.</h1>
+                        </div>
+
+                        <div class="nav">
+                                <ul>
+                                        <!-- <li><input type="submit" value="SAVE" style = "background:  #BBD8D8; color: #566D7E;"></li> -->
+                                        <li><input id="savebutton" type="submit" value="SAVE" style = "background:  #BBD8D8; color: #566D7E;"></li>
+                                        <li><input id="finishbutton" type="submit" value="FINISH" style = "background:  #BBD8D8; color: #566D7E;"></li>
+                                </ul>
+                        </div>
+                </div>
+        </div>
+        <div class="container">
+                <div class="content">
+                        <br>
+                </div>
+                <br>
+                <div class="content">
+
+                        <div id="loadingtext" style="visibility:hidden"><h3 style = "color: #566D7E; font-size: 20px; font-family: "neutra";">Processing... We will suggest some items that might fit the occasion you described</h3></div>
+                        <div id="results"></div>
+
+                </div>
+        </div>
+
+        <script src="/static/jquery-2.1.4.min.js"></script>
+        <link rel="stylesheet" href="static/jquery-ui-1.11.4.custom/jquery-ui.css">
+        <script src="static/jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+        <script src="/static/auto_test_page3.js"></script>
+        <script type="text/javascript">
+                // $("button").on("click", function() {
+                $("#savebutton").on("click", function() {
+                        console.log("ha");
+                        $("#loadingtext").css("visibility","visible");
+                        $.post(
+                                "{{url_for('handle_survey_page3')}}",
+                                $("form").serialize(),
+                                function(response){
+                                        $("#loadingtext").css("visibility","hidden");
+                                        for(key in response){
+                                                // console.log(response[key]);
+                                                // $(".wrapper").append("<p>"+response[key]+"</p>");
+                                                $("#results").append("<p>"+response[key]+"</p>");
+                                        }
+                                        // console.log(response['line1']);
+                                        // $("div.wrapper").append(response);
+                                }
+                        );
+                });
+
+                document.getElementById("finishbutton").addEventListener("click", function() {
+                                var form = document.createElement('form');
+                                form.method = "GET";
+                                form.action = "{{url_for('thankyou')}}";
+                                form.submit();
+                });
+
+        </script>
+
+</body>
+</html>
