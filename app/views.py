@@ -100,20 +100,20 @@ def handle_survey_page3():
 
         topItemsByStyleWord = getItemsByStyle(topics,phiMatrices,"abstract")
         t2 = topItemsByStyleWord.copy()
-        #print(topItemsByStyleWord)
+        print(topItemsByStyleWord)
         # return jsonify(doctops_return)
-        #return jsonify(topItemsByStyleWord)
+        return jsonify(topItemsByStyleWord)
 
 @app.route('/page4', methods=['GET', 'POST'])
 def survey_page4():
-        #print (t2)
+        print (t2)
         return render_template('page4.html', t2=t2)
 
 @app.route('/page41', methods=['GET', 'POST'])
 def handle_survey_page4():
         print (t2)
 
-        return  jsonify(t2)
+        #return  jsonify(t2)
 
 @app.route('/thankyou', methods=['GET','POST'])
 def thankyou():
