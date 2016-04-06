@@ -59,7 +59,7 @@ def handle_survey_page1():
         topItemsByStyleWord = getItemsByStyle(topics,phiMatrices,"concrete")
         t1 = topItemsByStyleWord.copy()
         print(topItemsByStyleWord)
-        return jsonify(topItemsByStyleWord)
+        #return jsonify(topItemsByStyleWord)
 
 @app.route('/page2', methods=['GET', 'POST'])
 def survey_page2():
