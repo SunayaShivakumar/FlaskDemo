@@ -14,7 +14,8 @@ topics = None
 items = None
 phiMatrices = None
 topItemsByTopic = None
-
+t1 = dict()
+t2 = dict()
 
 @app.route('/', methods=['GET','POST'])
 @app.route('/index', methods=['GET','POST'])
@@ -55,6 +56,7 @@ def handle_survey_page1():
 
         global topics
         global phiMatrices
+        global t1
 
         topItemsByStyleWord = getItemsByStyle(topics,phiMatrices,"concrete")
         t1 = topItemsByStyleWord.copy()
@@ -68,7 +70,7 @@ def survey_page2():
 
 @app.route('/page21', methods=['GET', 'POST'])
 def handle_survey_page2():
-        print ('Moving  on to page3')
+        print (t1)
 
 @app.route('/page3', methods=['GET','POST'])
 def survey_page3():
@@ -94,22 +96,24 @@ def handle_survey_page3():
 
         global topics
         global phiMatrices
+        global t2
 
         topItemsByStyleWord = getItemsByStyle(topics,phiMatrices,"abstract")
         t2 = topItemsByStyleWord.copy()
-        print(topItemsByStyleWord)
+        #print(topItemsByStyleWord)
         # return jsonify(doctops_return)
         return jsonify(topItemsByStyleWord)
 
 @app.route('/page4', methods=['GET', 'POST'])
 def survey_page4():
-
-        return render_template('page4.html')
+        print (t2)
+        return render_template('page4.html', tag=t2)
 
 @app.route('/page41', methods=['GET', 'POST'])
 def handle_survey_page4():
         print (t2)
-        return  jsonify(t2)
+
+        #return  jsonify(t2)
 
 @app.route('/thankyou', methods=['GET','POST'])
 def thankyou():

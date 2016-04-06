@@ -83,6 +83,12 @@ p{
                         <div id="loadingtext" style="visibility:hidden"><h3 style = "color: #566D7E; font-size: 20px; font-family: "neutra";">Processing... We will suggest some items that might fit the occasion you described</h3></div>
                         <div id="results"></div>
 
+                <ul>
+                {% for tag in t1 %}
+                <li>{{ tag }}</li>
+                {% endfor %}
+                </ul>
+
                         <div class="items">
                             <ul>
                                 <li><img src="https://s3-us-west-2.amazonaws.com/polyvoredata/full/V25469c3ae5a248a33e69bcbe7387ee5649d51bbc.jpg"/></li>
