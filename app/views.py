@@ -14,8 +14,8 @@ topics = None
 items = None
 phiMatrices = None
 topItemsByTopic = None
-t1 = 0
-t2 =0
+t1 = None
+t2 = None
 
 
 @app.route('/', methods=['GET','POST'])
