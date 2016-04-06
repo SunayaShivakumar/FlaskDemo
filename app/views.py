@@ -66,7 +66,7 @@ def handle_survey_page1():
 
 @app.route('/page2', methods=['GET', 'POST'])
 def survey_page2():
-        pritn (t1)
+        print (t1)
         return render_template('page2.html', t1 = t1)
 
 @app.route('/page21', methods=['GET', 'POST'])
