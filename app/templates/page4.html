@@ -92,24 +92,7 @@ p{
         <script src="/static/auto_test_page3.js"></script>
         <script type="text/javascript">
                 // $("button").on("click", function() {
-                $("#savebutton").on("click", function() {
-                        console.log("ha");
-                        $("#loadingtext").css("visibility","visible");
-                        $.post(
-                                "{{url_for('handle_survey_page4')}}",
-                                $("form").serialize(),
-                                function(response){
-                                        $("#loadingtext").css("visibility","hidden");
-                                        for(key in response){
-                                                // console.log(response[key]);
-                                                // $(".wrapper").append("<p>"+response[key]+"</p>");
-                                                $("#results").append("<p>"+response[key]+"</p>");
-                                        }
-                                        // console.log(response['line1']);
-                                        // $("div.wrapper").append(response);
-                                }
-                        );
-                });
+     
 
                 document.getElementById("finishbutton").addEventListener("click", function() {
                                 var form = document.createElement('form');

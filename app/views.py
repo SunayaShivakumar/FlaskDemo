@@ -14,8 +14,6 @@ topics = None
 items = None
 phiMatrices = None
 topItemsByTopic = None
-t1 = None
-t2 = None
 
 
 @app.route('/', methods=['GET','POST'])
@@ -70,28 +68,7 @@ def survey_page2():
 
 @app.route('/page21', methods=['GET', 'POST'])
 def handle_survey_page2():
-        
-        form = outfitForm(request.form)
-        # if form.validate_on_submit():
-                # outfits = useroutfits(outfit_one=form.outfit_one.data, outfit_two=form.outfit_two.data, outfit_three=form.outfit_three.data)
-        outfits = Useroutfits(outfit_one=form.outfit_one.data, outfit_two=form.outfit_two.data, outfit_three=form.outfit_three.data)
-        db.session.add(outfits)
-        db.session.commit()
-
-        comp_str = form.outfit_one.data+" "+form.outfit_two.data+" "+form.outfit_three.data
-
-        file_saver_local("concrete", comp_str)
-        mallet_runner_local("concrete")
-        # file_saver_AWS("concrete", comp_str)
-        # mallet_runner_AWS("concrete")
-
-        global topics
-        global phiMatrices
-
-        topItemsByStyleWord = getItemsByStyle(topics,phiMatrices,"concrete")
-        t1 = topItemsByStyleWord.copy()
-        print(topItemsByStyleWord)
-        return jsonify(topItemsByStyleWord)
+        print ('Moving  on to page3')
 
 @app.route('/page3', methods=['GET','POST'])
 def survey_page3():
