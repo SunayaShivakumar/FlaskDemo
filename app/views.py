@@ -58,7 +58,7 @@ def handle_survey_page1():
         global phiMatrices
 
         topItemsByStyleWord = getItemsByStyle(topics,phiMatrices,"concrete")
-        t1 = topItemsByStyleWord
+        t1 = topItemsByStyleWord.copy()
         print(topItemsByStyleWord)
         return jsonify(topItemsByStyleWord)
 
@@ -98,7 +98,7 @@ def handle_survey_page3():
         global phiMatrices
 
         topItemsByStyleWord = getItemsByStyle(topics,phiMatrices,"abstract")
-        t2 = topItemsByStyleWord
+        t2 = topItemsByStyleWord.copy()
         print(topItemsByStyleWord)
         # return jsonify(doctops_return)
         return jsonify(topItemsByStyleWord)
