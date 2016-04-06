@@ -107,7 +107,7 @@ def handle_survey_page3():
 @app.route('/page4', methods=['GET', 'POST'])
 def survey_page4():
         print (t2)
-        return render_template('page4.html', tag=t2)
+        return render_template('page4.html', t2=t2)
 
 @app.route('/page41', methods=['GET', 'POST'])
 def handle_survey_page4():
