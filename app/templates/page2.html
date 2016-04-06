@@ -91,7 +91,7 @@ p{
                         $("#loadingtext").css("visibility","visible");
                         console.log("ha");
                         $.post(
-                                "{{url_for('handle_survey_page1')}}",
+                                "{{url_for('handle_survey_page2')}}",
                                 $("form").serialize(),
                                 function(response){
                                         $("#loadingtext").css("visibility","hidden");
