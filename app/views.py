@@ -14,7 +14,7 @@ topics = None
 items = None
 phiMatrices = None
 topItemsByTopic = None
-topItemsByStyleWord = None
+t1, t2 = 0 
 
 
 @app.route('/', methods=['GET','POST'])
@@ -58,6 +58,7 @@ def handle_survey_page1():
         global phiMatrices
 
         topItemsByStyleWord = getItemsByStyle(topics,phiMatrices,"concrete")
+        t1 = topItemsByStyleWord
         print(topItemsByStyleWord)
         return jsonify(topItemsByStyleWord)
 
@@ -68,8 +69,8 @@ def survey_page2():
 
 @app.route('/page21', methods=['GET', 'POST'])
 def handle_survey_page2():
-        print (topItemsByStyleWord)
-        return  jsonify(topItemsByStyleWord)
+        print (t1)
+        return  jsonify(t1)
 
 @app.route('/page3', methods=['GET','POST'])
 def survey_page3():
@@ -97,10 +98,20 @@ def handle_survey_page3():
         global phiMatrices
 
         topItemsByStyleWord = getItemsByStyle(topics,phiMatrices,"abstract")
+        t2 = topItemsByStyleWord
         print(topItemsByStyleWord)
         # return jsonify(doctops_return)
         return jsonify(topItemsByStyleWord)
 
+@app.route('/page4', methods=['GET', 'POST'])
+def survey_page4():
+
+        return render_template('page4.html')
+
+@app.route('/page41', methods=['GET', 'POST'])
+def handle_survey_page4():
+        print (t2)
+        return  jsonify(t2)
 
 @app.route('/thankyou', methods=['GET','POST'])
 def thankyou():
