@@ -66,10 +66,10 @@ def survey_page2():
 
         return render_template('page2.html')
 
-@app.route('/page2', methods=['GET', 'POST'])
+@app.route('/page21', methods=['GET', 'POST'])
 def handle_survey_page2():
-        print topItemsByStyleWord
-        return  jsonify(topItemsByStyleWord)
+        print (topItemsByStyleWord)
+        #return  jsonify(topItemsByStyleWord)
 
 @app.route('/page3', methods=['GET','POST'])
 def survey_page3():
