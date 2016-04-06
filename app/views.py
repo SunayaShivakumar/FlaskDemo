@@ -69,7 +69,7 @@ def survey_page2():
 @app.route('/page21', methods=['GET', 'POST'])
 def handle_survey_page2():
         print (topItemsByStyleWord)
-        #return  jsonify(topItemsByStyleWord)
+        return  jsonify(topItemsByStyleWord)
 
 @app.route('/page3', methods=['GET','POST'])
 def survey_page3():
